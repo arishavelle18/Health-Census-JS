@@ -90,7 +90,7 @@ function searchCondition() {
   console.log(input);
   resultDiv.innerHTML = "";
 
-  fetch("health_analysis.json")
+  fetch("./health_analysis.json")
     .then((response) => response.json())
     .then((data) => {
       debugger;
